@@ -1,0 +1,50 @@
+.proffSlider {
+    background-color: #222222;
+    padding: 55px 0 195px;
+    &__wrapper {
+        max-width: 1155px;
+        margin: 0 auto;
+        // position: relative;
+    }
+    &__title {
+        color: #CFC4A8;
+        text-transform: uppercase;
+        font: 700 24px/150% "Inter";
+        margin-bottom: 30px;
+    }
+    &__slider {
+        position: relative;
+        &-item {
+            color: #fff;
+            text-transform: uppercase;
+            &-title {
+                font: 900 64px/77px "Inter";
+                margin: 120px 0 12px;
+            }
+            &-text {
+                font: 400 24px/150% "Inter";
+                text-shadow: 0px 2px 0px #000000;
+                z-index: 99999;
+                position: relative;
+            }
+            &-img {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                transform: translateY(-12%) translateX(22%);
+                &-blur {
+                    position: absolute;
+                    right: 0;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    background-color: #fff;
+                    background: rgba(255, 255, 255, 0.25);
+                    filter: blur(175px);
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}

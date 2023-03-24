@@ -1,0 +1,21 @@
+.banner {
+    margin-top: 260px;
+    background: url("../../../public/img/banner/bg.svg") no-repeat center / cover;
+    text-align: center;
+    padding: 152px 0 153px;
+    &__text {
+        font: 700 36px/44px "Inter";
+        color: #fff;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    &__btn {
+        margin-top: 30px;
+        background-color: #fff;
+        border-radius: 100px;
+        color: #D48128;
+        font: 700 40px/100% "Inter";
+        padding: 15px 75px;
+        text-transform: uppercase;
+    }
+}

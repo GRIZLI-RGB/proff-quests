@@ -1,0 +1,12 @@
+.forStudents {
+    margin-top: 120px;
+    &__text {
+        text-align: center;
+        margin: 50px 0 70px;
+        color: #9A7952;
+        font: 400 22px/150% "Inter";
+        & > span {
+            font-weight: 700;
+        }
+    }
+}

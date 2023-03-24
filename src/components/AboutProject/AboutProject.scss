@@ -1,0 +1,25 @@
+.aboutProject {
+    margin-top: 120px;
+    &__items {
+        display: flex;
+        margin-top: 100px;
+        column-gap: 125px;
+        &-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1 1 0;
+            &-title {
+                color: #EC813E;
+                font: 700 32px/39px "Inter";
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+            &-text {
+                color: #9A7952;
+                font: 600 20px/140% "Inter";
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 400 16px/100% "Inter";
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+a,
+button,
+span {
+    font: inherit;
+    color: inherit;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
