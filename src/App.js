@@ -1,10 +1,10 @@
-import AboutProject from "./components/AboutProject";
-import Banner from "./components/Banner";
-import ForOrganizations from "./components/ForOrganizations";
-import ForStudents from "./components/ForStudents";
-import Header from "./components/Header";
-import ProffSlider from "./components/ProffSlider";
-import Welcome from "./components/Welcome";
+import AboutProject from "./components/_Landing/AboutProject";
+import Banner from "./components/_Landing/Banner";
+import ForOrganizations from "./components/_Landing/ForOrganizations";
+import ForStudents from "./components/_Landing/ForStudents";
+import Header from "./components/_Landing/Header";
+import ProffSlider from "./components/_Landing/ProffSlider";
+import Welcome from "./components/_Landing/Welcome";
 
 function App() {
     return (

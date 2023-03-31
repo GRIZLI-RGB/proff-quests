@@ -3,7 +3,7 @@ import "./AboutProject.scss";
 
 function AboutProject() {
     return (
-        <section className="aboutProject">
+        <section className="aboutProject" id="about-project">
             <TitleAndSubtitle title={"О проекте"} subtitle={"Помогаем наметить верный курс на будущее!"} />
             <div className="aboutProject__items">
                 <div className="aboutProject__items-item">

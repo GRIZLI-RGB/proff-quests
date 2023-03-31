@@ -3,7 +3,7 @@ import "./ForStudents.scss";
 
 function ForStudents() {
     return (
-        <section className="forStudents">
+        <section className="forStudents" id="for-students">
             <TitleAndSubtitle title={"Обучающимся"} subtitle={"Даем ценные професиональные рекомендации!"} />
             <p className="forStudents__text">
                 Взрослая жизнь — может пугать. Одним из серьезнейших страхов становится{" "}

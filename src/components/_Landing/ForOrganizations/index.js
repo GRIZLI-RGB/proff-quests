@@ -3,7 +3,7 @@ import TitleAndSubtitle from "../TitleAndSubtitle";
 
 function ForOrganizations() {
     return (
-        <section className="forOrganizations">
+        <section className="forOrganizations" id="for-organizations">
             <TitleAndSubtitle
                 title={"Образовательным организациям"}
                 subtitle={"ПОМОГАеТ ВЫСТРОИТЬ ПОД НОГАМИ ПОДОПЕЧНЫХ фундамент из СвЕТЛОго будущего!"}

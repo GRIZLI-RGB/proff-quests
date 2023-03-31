@@ -1,20 +1,6 @@
 import "./Welcome.scss";
-import touchmyripple from 'touchmyripple';
-import { useEffect } from "react";
 
 function Welcome() {
-    useEffect(() => {
-        touchmyripple.init({
-            color: 'rgba(255, 255, 255, 0.5)',
-            eventListener: 'touchstart'
-        });
-        
-        touchmyripple.attachToSelectors({
-            selectors: '.welcome__info-btn',
-            color: 'rgba(255, 255, 255, 0.5)',
-            eventListener: 'mousedown'
-        });
-    }, [])
 
     return (
         <section className="welcome">
