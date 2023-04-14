@@ -21,7 +21,7 @@ function ProffSlider() {
                             квалификации.
                         </p>
                         <div className="proffSlider__slider-item-img">
-                            <img  src="/img/slider/fireman.svg" alt="" />
+                            <img src="/img/slider/fireman.svg" alt="" />
                             <div className="proffSlider__slider-item-img-blur"></div>
                         </div>
                     </div>
