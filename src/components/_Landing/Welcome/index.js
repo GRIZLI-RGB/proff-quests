@@ -14,7 +14,7 @@ function Welcome() {
                     чему есть предрасположенность, и начать развивать эти навыки. Тогда шансы, что карьера будет
                     успешной и не придётся жалеть о своём выборе, сильно повышаются.
                 </p>
-                <button className="welcome__info-btn">Подробнее</button>
+                <button className="welcome__info-btn" onClick={() => window.scrollTo(0, document.body.scrollHeight)}>Подробнее</button>
             </div>
             <img className="welcome__person" src="/img/welcome/person.svg" alt="Person" />
             <img className="welcome__decor" src="/img/decor/1.svg" alt="Decor" />

@@ -14,7 +14,7 @@ function Header() {
                 <li className="header__menu-item">
                     <a href="#for-organizations">Для организаций</a>
                 </li>
-                <li className="header__menu-btn" onClick={() => window.scrollTo(0, document.body.scrollHeight)}>
+                <li className="header__menu-btn">
                     К тестированию
                 </li>
             </ul>
