@@ -3,7 +3,7 @@ import "./Banner.scss";
 import { CSSTransition, SwitchTransition } from "react-transition-group";
 
 function Banner() {
-    const [stage, setStage] = useState("2 этап");
+    const [stage, setStage] = useState("0 этап");
     const [toggle, setToggle] = useState(true);
 
     useEffect(() => {
