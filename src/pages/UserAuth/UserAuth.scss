@@ -1,0 +1,55 @@
+.userAuth {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__form {
+        text-align: center;
+        border: 3px solid #D48128;
+        border-radius: 16px;
+        padding: 40px;
+        &-title {
+            margin-bottom: 20px;
+            font: 700 24px/100% "Inter";
+            color: #D48128;
+            text-transform: uppercase;
+        }
+        &-inputs {
+            display: flex;
+            flex-direction: column;
+            row-gap: 8px;
+            div {
+                position: relative;
+                input {
+                    width: 100%;
+                    border: 1px solid #D48128;
+                    border-radius: 12px;
+                    padding: 12px 18px;
+                    color: #353535;
+                }
+                // img {
+                //     position: absolute;
+                //     width: 28px;
+                //     top: 50%;
+                //     transform: translateY(-50%);
+                //     left: 8px;
+                // }
+            }
+        }
+        &-button {
+            width: 100%;
+            margin-top: 20px;
+            background-color: #d48128;
+            border-radius: 100px;
+            color: #fff;
+            font: 700 16px/100% "Inter";
+            padding: 16px 32px;
+            text-transform: uppercase;
+            transition: all 0.2s;
+            &:hover {
+                opacity: 0.75;
+            }
+        }
+    }
+}
