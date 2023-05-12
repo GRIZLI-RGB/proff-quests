@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import AboutProject from "./components/_Landing/AboutProject";
 import Banner from "./components/_Landing/Banner";
 import ForOrganizations from "./components/_Landing/ForOrganizations";
@@ -9,6 +10,9 @@ import Welcome from "./components/_Landing/Welcome";
 function App() {
     return (
         <>
+        <Helmet>
+            <title>ПРОФQUESTS</title>
+        </Helmet>
             <div className="container">
                 <Header />
                 <Welcome />

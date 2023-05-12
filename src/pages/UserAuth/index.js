@@ -21,7 +21,7 @@ const UserAuth = () => {
                     </div>
                     <div>
                         {/* <img src="/img/icons/key.svg" alt=""/> */}
-                        <input type="text" placeholder="Токен"/>
+                        <input type="text" placeholder="Токен" maxLength={16}/>
                     </div>
                 </div>
                 <button className="userAuth__form-button">Подтвердить</button>

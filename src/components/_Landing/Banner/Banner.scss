@@ -70,9 +70,16 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    cursor: pointer;
+                    &--color {
+                        &:hover {
+                            opacity: .75;
+                        }
+                    }
                     > img {
                         display: block;
                         height: 80%;
+                        pointer-events: none;
                     }
                 }
             }

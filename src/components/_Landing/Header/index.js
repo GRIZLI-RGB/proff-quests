@@ -14,7 +14,7 @@ function Header() {
                 <li className="header__menu-item">
                     <a href="#for-organizations">Для организаций</a>
                 </li>
-                <a className="header__menu-btn" href="/auth">
+                <a className="header__menu-btn" href="/user-auth">
                     К тестированию
                 </a>
             </ul>
