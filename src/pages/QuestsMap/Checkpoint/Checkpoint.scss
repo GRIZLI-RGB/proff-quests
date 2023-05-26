@@ -1,0 +1,37 @@
+.checkpoint {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #DE7171;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transform: translateY(-50%);
+    z-index: 100;
+    transform: translateX(-50%);
+    cursor: pointer;
+    &:hover {
+        opacity: .75;
+    }
+    &__marker {
+        position: absolute;
+        width: 80%;
+        top: 0;
+        transform: translateY(-102%);
+    }
+    &__lock {
+        width: 60%;
+    }
+    &__body {
+        width: 34px;
+        height: 34px;
+        background-color: #B033BB;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font: 700 24px/100% "Inter";
+    }
+}

@@ -24,7 +24,8 @@ ol {
 
 a {
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none !important;
+    color: #fff !important;
 }
 
 button {

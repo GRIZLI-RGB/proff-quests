@@ -1,0 +1,16 @@
+.questsMap {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #49A5A6;
+    &__content {
+        position: relative;
+        &-map {
+            display: block;
+            max-width: 80vw;
+            max-height: 85vh;
+        }
+    }
+}

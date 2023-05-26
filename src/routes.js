@@ -1,10 +1,12 @@
 import { Navigate, useRoutes } from "react-router-dom";
 
 import App from "./App";
-import UserAuth from "./pages/UserAuth"
-import AdminPanel from "./pages/AdminPanel"
-import DashboardLayout from './layouts/dashboard';
-import DashboardAppPage from './pages/DashboardAppPage';
+import UserAuth from "./pages/UserAuth";
+import AdminPanel from "./pages/AdminPanel";
+import DashboardLayout from "./layouts/dashboard";
+import DashboardAppPage from "./pages/DashboardAppPage";
+import { QuestsMap } from "./pages/QuestsMap";
+import Task from "./pages/Task";
 
 export default function Router() {
     const routes = useRoutes([
@@ -28,6 +30,14 @@ export default function Router() {
         {
             path: "/admin-panel/auth",
             element: <AdminPanel />,
+        },
+        {
+            path: "/quests/map",
+            element: <QuestsMap />,
+        },
+        {
+            path: "/quests/task/:id",
+            element: <Task />,
         },
     ]);
 
